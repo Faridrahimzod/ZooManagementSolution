@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <RootNamespace>ZooManagement.Tests</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="xunit" Version="2.5.5" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.5.5">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="coverlet.collector" Version="6.0.2">
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Moq" Version="4.20.75" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZooManagement.Domain\ZooManagement.Domain.csproj" />
+    <ProjectReference Include="..\ZooManagement.Application\ZooManagement.Application.csproj" />
+    <ProjectReference Include="..\ZooManagement.Infrastructure\ZooManagement.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
