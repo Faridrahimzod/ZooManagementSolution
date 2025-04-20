@@ -1,3 +1,5 @@
+# Рахимзода Фаридун Тоджиддин
+# БПИ236
 # ZooManagementSolution
 
 Пример учебного приложения для автоматизации процессов зоопарка.
@@ -16,7 +18,6 @@ dotnet build
 dotnet run --project ZooManagement.Presentation
 ```
 
-После запуска Swagger UI будет доступен по адресу **https://localhost:5001/swagger** (порт может отличаться).
 
 ## Что реализовано
 
